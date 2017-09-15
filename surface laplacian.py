@@ -134,4 +134,4 @@ def surface_laplacian(epochs, leg_order, m, smoothing, montage):
     before = mne.EpochsArray(data=original, info=info, events=events, event_id=event_id, tmin=tmin, on_missing='ignore')
     after = mne.EpochsArray(data=surf_lap, info=info, events=events, event_id=event_id, tmin=tmin, on_missing='ignore')
     
-    return after, before
+    return before, after
