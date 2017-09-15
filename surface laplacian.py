@@ -13,7 +13,7 @@ def surface_laplacian(epochs, leg_order, m, smoothing, montage):
         - montage: montage to reconstruct the transformed Epochs object (same as in raw data import)
         
     OUTPUTS are:
-        - before: sham reconstraction of the original Epochs object
+        - before: unaffected reconstruction of the original Epochs object
         - after: surface laplacian transform of the original Epochs object
         
     References:
