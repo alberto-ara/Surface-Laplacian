@@ -1,6 +1,6 @@
 def surface_laplacian(epochs, leg_order, m, smoothing, montage):
     """
-    This function attempts to compute the surface laplacian transform to an mne Epochs object. The 
+    This function computes the surface laplacian transform to an mne Epochs object. The 
     algorithm follows the formulations of Perrin et al. (1989) and it consists for the most part in a 
     nearly-literal translation of Mike X Cohen's 'Analyzing neural time series data' corresponding MATLAB 
     code (2014).
